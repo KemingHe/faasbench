@@ -21,7 +21,7 @@
     "react-dom": "^16.7.0",
     "redis": "^2.8.0",
     "redux": "^4.0.1",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise": "^4.2.2",
     "serverless": "^1.36.3",
     "sinon": "^7.2.3",

@@ -1,0 +1,64 @@
+{
+  "name": "faasbench",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Comprehensive benchmarking of all modern function-as-a-service offerings.",
+  "keywords": [
+    "faas",
+    "benchmark",
+    "pulumi",
+    "iac",
+    "gcp",
+    "azure",
+    "aws",
+    "oracle",
+    "cloudflare",
+    "vercel"
+  ],
+  "license": "MIT",
+  "homepage": "https://faasbench.dev",
+  "author": {
+    "name": "Keming He",
+    "email": "keminghe.career@gmail.com",
+    "url": "https://www.linkedin.com/in/keminghe/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KemingHe/faasbench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KemingHe/faasbench/issues"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint": "biome ci .",
+    "lint:fix": "biome check --write .",
+    "test:unit": "vitest",
+    "test:unit:coverage": "vitest --coverage.enabled",
+    "test:unit:update-snapshots": "vitest --update",
+    "test": "pnpm test:unit:coverage",
+    "check:changesets": "changeset status",
+    "check:types": "tsc",
+    "verify": "pnpm check:changesets && pnpm lint && pnpm check:types && pnpm test"
+  },
+  "packageManager": "pnpm@10.6.4+sha512.da3d715bfd22a9a105e6e8088cfc7826699332ded60c423b14ec613a185f1602206702ff0fe4c438cb15c979081ce4cb02568e364b15174503a63c7a8e2a5f6c",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.1",
+    "@types/node": "^22.13.10",
+    "@vitest/coverage-v8": "^3.0.9",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "typescript": "^5.8.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.9"
+  }
+}

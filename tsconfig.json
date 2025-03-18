@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // JavaScript Language and Environment
+    "target": "ES2022",
+    "lib": ["ES2022"],
+
+    // Modules
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"] // Path aliases for flat structure
+    },
+
+    // Type Checking
+    "strict": true,
+    // Additional type checks not covered by strict
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+
+    // No output files, only used for alias and type checking
+    "noEmit": true,
+
+    // Interoperability Constraints
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Completeness
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+
+    // Language and Environment
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false
+  },
+  "include": ["*.ts", "**/*.ts"],
+  "exclude": ["node_modules"]
+}

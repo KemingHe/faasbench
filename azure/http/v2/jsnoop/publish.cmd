@@ -1,1 +1,0 @@
-func azure functionapp publish dev-cold-v2js-fa2af5bf41

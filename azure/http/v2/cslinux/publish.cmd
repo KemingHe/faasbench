@@ -1,1 +1,0 @@
-func azure functionapp publish cbazure-cold-cslinux-fa0b3b1c75 --nozip

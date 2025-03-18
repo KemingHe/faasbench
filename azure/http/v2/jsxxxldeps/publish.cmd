@@ -1,1 +1,0 @@
-func azure functionapp publish cbazure-cold-v2jsxxxl-faadc89698 --nozip

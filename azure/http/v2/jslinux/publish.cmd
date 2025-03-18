@@ -1,1 +1,0 @@
-func azure functionapp publish dev-cold-jslinux-faa9de395f

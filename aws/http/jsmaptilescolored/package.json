@@ -1,7 +1,0 @@
-{
-    "name": "@serverlessland/azure-map-tiles",
-    "dependencies": {
-        "aws-sdk": "^2.411.0",
-        "jimp": "^0.6.0"
-    }
-}

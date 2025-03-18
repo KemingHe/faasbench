@@ -1,2 +1,3 @@
-# cloudbench
-Cloud services performance benchmarking
+# FaaSBench
+
+Comprehensive benchmarking of all modern function-as-a-service offerings.
